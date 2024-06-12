@@ -94,7 +94,6 @@ public class LinkedList<T extends Integer> {
 		boolean b = linkedList.searchIsElementThere(20);
 		System.out.println(b);
     }
-
 }
 
 class Node<T> {
