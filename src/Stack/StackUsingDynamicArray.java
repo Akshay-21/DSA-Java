@@ -12,10 +12,10 @@ public class StackUsingDynamicArray {
     //    Array used to implement the stack
     protected int[] stackRep;
 
-//    Index of the top element of the stack in the array;
+    //    Index of the top element of the stack in the array;
     protected int top = -1;
 
-//   Initialize the stack to use an array of default length.
+    //   Initialize the stack to use an array of default length.
     public StackUsingDynamicArray() {
         this(CAPACITY);             // Default capacity
     }
@@ -39,8 +39,8 @@ public class StackUsingDynamicArray {
     public void push(int data) throws Exception {
         if (size() == capacity) {
             expand();
-            stackRep[++top] = data;
         }
+        stackRep[++top] = data;
     }
 
     private void expand() {
@@ -93,30 +93,26 @@ public class StackUsingDynamicArray {
     public String toString() {
         String s;
         s = "[";
-        if (size() > 0) {
+        if (size() > 0)
             s += stackRep[0];
-        }
-        if (size() > 1) {
+        if (size() > 1)
             for (int i = 1; i <= size() - 1; i++) {
-                s += ", " + stackRep[1];
+                s += ", " + stackRep[i];
             }
-        }
         return s + "]";
     }
 
     public static void main(String[] args) {
-        System.out.println("Stack Using Dynamic Array");
+        System.out.println("Stack Using Dynamic Array\n");
 
-        StackUsingDynamicArray dynamicStack = new StackUsingDynamicArray();
+        StackUsingDynamicArray dynamicStack = new StackUsingDynamicArray(8);
         try {
             dynamicStack.push(2);
             dynamicStack.push(4);
-//            System.out.println(dynamicStack.top);
-            System.out.println("A "+dynamicStack.size());
+            System.out.println(dynamicStack);
         } catch (Exception e) {
             e.printStackTrace();
         }
-
 
     }
 }

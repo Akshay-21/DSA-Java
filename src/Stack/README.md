@@ -2,6 +2,6 @@
 ## Stack
 ### Stack Using Array
 ### Stack Using Dynamic Array
-### Stack Using LinkedList
+### Stack Using Linked List
 
 
