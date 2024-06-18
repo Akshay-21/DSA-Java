@@ -16,14 +16,22 @@ digit count = 8.
 ```
 
 ### 3rd - Digits of a number
-```
-#### [PC:Que-19 & Sol-20]
+```#### [PC:Que-19 & Sol-20]
+
+E.g.
+int n = 754
+7
+5
+4
+
+E.g.
 d = 65784383
 d1
 d2
 d3
 ...digits of the number.
 
+Print all digit left to right with different line.
 Sample Input
 E.g. - 65784383
 Sample Output
