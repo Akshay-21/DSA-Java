@@ -16,7 +16,8 @@ digit count = 8.
 ```
 
 ### 3rd - Digits of a number
-```#### [PC:Que-19 & Sol-20]
+```
+#### [PC:Que-19 & Sol-20]
 
 E.g.
 int n = 754
@@ -44,3 +45,13 @@ Sample Output
 8
 3
 ```
+
+#### 4th - Reverse a Number
+```
+#### [PC:L-20 => Que-21 & Sol-22]  
+
+# E.g.  
+int n = 65784383
+3 8 3 4 8 7 5 6
+```
+
