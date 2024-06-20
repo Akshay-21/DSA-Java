@@ -20,10 +20,12 @@ digit count = 8.
 #### [PC:Que-19 & Sol-20]
 
 E.g.
-int n = 754
+int n = 754 
 7
 5
 4
+
+Get digit count and divide n by q = Math.pow(10, count-1)-> 100 {n/q}
 
 E.g.
 d = 65784383
@@ -53,5 +55,30 @@ Sample Output
 # E.g.  
 int n = 65784383
 3 8 3 4 8 7 5 6
+```
+
+#### 5th - Inverse of a number
+![Inverse Image](../assets/inversenumberque.png)
+![Inverse Example](../assets/inversenumber.png)
+```
+#### [PC:L-22 => Que-23 & Sol-24]  
+
+# E.g.
+Input Format  
+int n
+'n' where n is any integer value.  
+int i 
+'i' where i is inverted number.
+
+Sample Input
+n = 426135
+
+Sample Output
+i = 416253
+
+Number should be according to digits (6 digit number [1-6]), it should not be miss any digit and beyond the digit.
+e.g 5 digit number we have.
+then n = 426135
+we cannot use number like this 426137;
 ```
 
