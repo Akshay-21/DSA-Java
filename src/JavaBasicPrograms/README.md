@@ -82,3 +82,39 @@ then n = 426135
 we cannot use number like this 426137;
 ```
 
+#### 6th - Rotate a number
+![Inverse Image](../assets/rotateanumberque.png)
+![Inverse Image](../assets/rotateanumber.png)
+#### [PC:L-24 => Que-25 & Sol-26]
+
+```  
+# E.g.
+Input Format  
+int n
+'n' where n is any integer value.  
+int i 
+'k' where k is integer number. 
+Note:- k indicates from which the number we have to rotate the number n.
+
+Output format
+int r
+'r' where r is rotated number
+
+Sample Input
+n = 23457
+k = 2
+Sample Output
+r = 57234
+
+number format note:
+n = 12340056
+k = 3
+r = 05612340
+
+Note:-
+if number contains '0' and kth rotation number indicates to start rotation from 0th number. 
+and then we rotate the number. after that rotate number start with zero, 
+then number's first zero would not show in result. 
+
+```
+
