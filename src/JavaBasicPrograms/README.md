@@ -118,3 +118,43 @@ then number's first zero would not show in result.
 
 ```
 
+#### 7th - GCD and LCM
+![Inverse Image](../assets/gcdandlcmque.png)
+![Inverse Image](../assets/gcdandlcm.png)
+![Inverse Image](../assets/gcdandlcm1.png)
+#### [PC:L-26 => Que-27 & Sol-28]
+
+```  
+# E.g.
+Input Format  
+int n
+'n' where n is any integer value.  
+int i 
+'k' where k is integer number. 
+Note:- k indicates from which the number we have to rotate the number n.
+
+Output format
+int r
+'r' where r is rotated number
+
+Sample Input
+n = 23457
+k = 2
+Sample Output
+r = 57234
+
+number format note:
+n = 12340056
+k = 3
+r = 05612340
+
+Note:-
+if number contains '0' and kth rotation number indicates to start rotation from 0th number. 
+and then we rotate the number. after that rotate number start with zero, 
+then number's first zero would not show in result. 
+
+Calculate GCD and LCM (Formula)
+if we have GCD or LCM
+LCM(n1, n2) = (n1 * n2) / GCD(n1, n2)
+
+```
