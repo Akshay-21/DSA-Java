@@ -127,34 +127,49 @@ then number's first zero would not show in result.
 ```  
 # E.g.
 Input Format  
-int n
-'n' where n is any integer value.  
-int i 
-'k' where k is integer number. 
-Note:- k indicates from which the number we have to rotate the number n.
+int n1
+'n1' where n1 is any integer value.  
+int n2 
+'n2' where n2 is any integer value.
 
 Output format
-int r
-'r' where r is rotated number
+int GCD;
+int LCM; 
 
 Sample Input
-n = 23457
-k = 2
+n1 = 36
+n2 = 24
 Sample Output
-r = 57234
+GCD = 12
+LCM = 72
 
-number format note:
-n = 12340056
-k = 3
-r = 05612340
-
-Note:-
-if number contains '0' and kth rotation number indicates to start rotation from 0th number. 
-and then we rotate the number. after that rotate number start with zero, 
-then number's first zero would not show in result. 
+int on1;
+int on2;
+on1 and on2 are contains n1 and n2 original number.
 
 Calculate GCD and LCM (Formula)
 if we have GCD or LCM
 LCM(n1, n2) = (n1 * n2) / GCD(n1, n2)
 
+```
+
+#### 8th - Prime Factorization
+
+![Inverse Image](../assets/primefactorizationque.png)
+![Inverse Image](../assets/primefactorization.png)
+#### [PC:L-28 => Que-29 & Sol-30]
+
+```  
+# E.g.
+Input Format    
+int n
+'n' where n is any integer value.  
+
+Output Format
+p1 p2 p3 p4.... All prime factors of n.
+
+Sample Input
+n = 1440
+Sample Output
+int a = 2 2 2 2 2 3 3 5
 ```
