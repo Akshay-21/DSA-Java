@@ -248,3 +248,21 @@ then compare the square of values according to max value.
             flag = ((square of A + sqaure of B) == ((sqaure of C));
         }        
 ```
+
+#### 10th - Benjamin Bulbs
+
+![Inverse Image](../assets/benjaminbulbsque.png)
+![Inverse Image](../assets/benjaminbulbs.png)
+![Inverse Image](../assets/benjaminbulbs1.png)
+![Inverse Image](../assets/benjaminbulbs2.png)
+
+#### [PC:L-32 => Que-33 & Sol-34]
+
+```  
+# E.g.
+Input Format    
+int n
+'n' where n is any integer value.  
+
+Print all perfect square of all numbers till n, which will be less than n.
+```
