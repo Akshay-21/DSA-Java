@@ -1,12 +1,14 @@
 # Java Basic Programs
 
 #### 1st - Print All Fibonacci Number Till N
+
 ```
 #### [PC:Que-15 & Sol-16]  
 # E.g. - 0 1 1 2 3 5 8 13 21 34 
 ```
 
 #### 2nd - Count Digits in a Number
+
 ```
 #### [PC:Que-17 & Sol-18]  
 
@@ -16,6 +18,7 @@ digit count = 8.
 ```
 
 ### 3rd - Digits of a number
+
 ```
 #### [PC:Que-19 & Sol-20]
 
@@ -49,6 +52,7 @@ Sample Output
 ```
 
 #### 4th - Reverse a Number
+
 ```
 #### [PC:L-20 => Que-21 & Sol-22]  
 
@@ -58,8 +62,10 @@ int n = 65784383
 ```
 
 #### 5th - Inverse of a number
+
 ![Inverse Image](../assets/inversenumberque.png)
 ![Inverse Example](../assets/inversenumber.png)
+
 ```
 #### [PC:L-22 => Que-23 & Sol-24]  
 
@@ -83,8 +89,10 @@ we cannot use number like this 426137;
 ```
 
 #### 6th - Rotate a number
+
 ![Inverse Image](../assets/rotateanumberque.png)
 ![Inverse Image](../assets/rotateanumber.png)
+
 #### [PC:L-24 => Que-25 & Sol-26]
 
 ```  
@@ -119,9 +127,11 @@ then number's first zero would not show in result.
 ```
 
 #### 7th - GCD and LCM
+
 ![Inverse Image](../assets/gcdandlcmque.png)
 ![Inverse Image](../assets/gcdandlcm.png)
 ![Inverse Image](../assets/gcdandlcm1.png)
+
 #### [PC:L-26 => Que-27 & Sol-28]
 
 ```  
@@ -157,6 +167,7 @@ LCM(n1, n2) = (n1 * n2) / GCD(n1, n2)
 
 ![Inverse Image](../assets/primefactorizationque.png)
 ![Inverse Image](../assets/primefactorization.png)
+
 #### [PC:L-28 => Que-29 & Sol-30]
 
 ```  
@@ -172,4 +183,68 @@ Sample Input
 n = 1440
 Sample Output
 int a = 2 2 2 2 2 3 3 5
+```
+
+#### 9th - Pythagorean Triplets
+
+![Inverse Image](../assets/pythagoreantripletsque.png)
+
+#### [PC:L-30 => Que-31 & Sol-32]
+
+```  
+# E.g.
+Input Format    
+int a
+int b
+int c
+'a','b' and 'c' where a,b, and c is any integer value.  
+
+Note:- a is the perpendicular, b is the base and c is the hypotenuse of the right-angled triangle.
+
+Output Format
+int isPythagoreanTriplets;
+
+Sample Input
+a = 5 
+b = 3
+c = 4 
+Sample Output
+boolean isPythagoreanTriplets = true
+
+First find out the max value from a,b and c.
+
+1st
+int max = a;
+if(b>=max){
+max = b;
+}
+if(c>=max){
+max = c;
+}
+
+2nd 
+private static int findMax(int a, int b, int c) {
+        if (a > b && a > c) {
+            return a;
+        } else if (b > c || b > a) {
+            return b;
+        } else {
+            return c;
+        }
+    }
+
+Note:- Formula to calculate Pythagorean Triplets
+int isPythagoreanTriplets [a2+b2 = c2]
+
+if max is a, b or c;
+then compare the square of values according to max value.
+
+        boolean flag;
+        if (max == a) {
+            flag = (sqaure of B + sqaure of C) == square of A;
+        } else if (max == b) {
+            flag = (sqaure of C + square of A) == sqaure of B;
+        } else {
+            flag = ((square of A + sqaure of B) == ((sqaure of C));
+        }        
 ```
