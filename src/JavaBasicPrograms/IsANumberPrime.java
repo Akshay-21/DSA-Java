@@ -53,7 +53,6 @@ public class IsANumberPrime {
         }
 
 
-
     }
 
     /*
@@ -69,6 +68,11 @@ public class IsANumberPrime {
      * then solution is: we don't require to run the loop more than root n.
      * */
 
+    // Optimization T(O) Time Complexity
+    //    1st Optimization
     //  To write root n here we use some trick. we will write for loop condition like [i * i <= n]
     // another one is [i <= n/2]
+
+    //  2nd Optimization
+    // As soon as we find the first divisor of n we 'need' to break the loop, because if n divides any number then the number is not prime.
 }

@@ -1,20 +1,25 @@
 # Java Basic Programs
 
-
 #### 1.1 - Is a number Prime?
+
 ![Is Number Prime Image](../assets/isnumberprimeque.png)
 ![Is Number Prime Image](../assets/isnumberprimeque1.png)
 ![Is Number Prime Image](../assets/isnumberprime.png)
 ![Is Number Prime Image](../assets/isnumberprime1.png)
-```
 
 ```
+Note:
+Using above approach we can check weather number is prime or not, but this will do for small numbers.
+what about for large numbers, so here t could be t = 10^4 and n could be go up to 10^9.    
+```
+
 ![Is Number Prime Image](../assets/isnumberprime2.png)
 ![Is Number Prime Image](../assets/isnumberprime3.png)
 ![Is Number Prime Image](../assets/isnumberprime4.png)
 ![Is Number Prime Image](../assets/isnumberprime5.png)
 ![Is Number Prime Image](../assets/isnumberprime6.png)
 ![Is Number Prime Image](../assets/isnumberprime7.png)
+
 ```
 # E.g.
 Input Format    
@@ -34,6 +39,36 @@ n = 7
 Sample Output
 flag = 2 // => number(7) is prime. 
 ```
+
+#### 1.2 - Print all Prime Numbers till N
+
+![Is Number Prime Image](../assets/printprimenumberstillNque.png)
+![Is Number Prime Image](../assets/printprimenumberstillNque1.png)
+
+```
+# E.g.
+Input Format    
+int low
+int high
+'low' where low is any integer value. 
+'high' where high is any integer value.
+  
+Output Format
+int n1 n2 n3 
+... all primes between low and high (both include)
+
+Sample Input
+low = 6
+high = 24
+Sample Output
+7
+11
+13
+17 
+19
+23
+```
+
 
 #### 1st - Print All Fibonacci Number Till N
 
@@ -199,6 +234,7 @@ LCM(n1, n2) = (n1 * n2) / GCD(n1, n2)
 ```
 
 #### 8th - Prime Factorization
+
 ![Prime Factorization Image](../assets/primefactorizationque.png)
 ![Prime Factorization Image](../assets/primefactorization.png)
 
