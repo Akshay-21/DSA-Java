@@ -1,5 +1,40 @@
 # Java Basic Programs
 
+
+#### 1.1 - Is a number Prime?
+![Is Number Prime Image](../assets/isnumberprimeque.png)
+![Is Number Prime Image](../assets/isnumberprimeque1.png)
+![Is Number Prime Image](../assets/isnumberprime.png)
+![Is Number Prime Image](../assets/isnumberprime1.png)
+```
+
+```
+![Is Number Prime Image](../assets/isnumberprime2.png)
+![Is Number Prime Image](../assets/isnumberprime3.png)
+![Is Number Prime Image](../assets/isnumberprime4.png)
+![Is Number Prime Image](../assets/isnumberprime5.png)
+![Is Number Prime Image](../assets/isnumberprime6.png)
+![Is Number Prime Image](../assets/isnumberprime7.png)
+```
+# E.g.
+Input Format    
+int t
+'t' where t is any integer value. 
+t (take multiple input numbers from user).
+
+int n
+'n' where n is any integer value to check n is prime or not prime.
+  
+Output Format
+int flag;
+'flag' where flag is any integer value.
+
+Sample Input
+n = 7
+Sample Output
+flag = 2 // => number(7) is prime. 
+```
+
 #### 1st - Print All Fibonacci Number Till N
 
 ```
@@ -90,8 +125,8 @@ we cannot use number like this 426137;
 
 #### 6th - Rotate a number
 
-![Inverse Image](../assets/rotateanumberque.png)
-![Inverse Image](../assets/rotateanumber.png)
+![Rotate Number Image](../assets/rotateanumberque.png)
+![Rotate Number Image](../assets/rotateanumber.png)
 
 #### [PC:L-24 => Que-25 & Sol-26]
 
@@ -128,9 +163,9 @@ then number's first zero would not show in result.
 
 #### 7th - GCD and LCM
 
-![Inverse Image](../assets/gcdandlcmque.png)
-![Inverse Image](../assets/gcdandlcm.png)
-![Inverse Image](../assets/gcdandlcm1.png)
+![GCD and LCM Image](../assets/gcdandlcmque.png)
+![GCD and LCM Image](../assets/gcdandlcm.png)
+![GCD and LCM Image](../assets/gcdandlcm1.png)
 
 #### [PC:L-26 => Que-27 & Sol-28]
 
@@ -164,9 +199,8 @@ LCM(n1, n2) = (n1 * n2) / GCD(n1, n2)
 ```
 
 #### 8th - Prime Factorization
-
-![Inverse Image](../assets/primefactorizationque.png)
-![Inverse Image](../assets/primefactorization.png)
+![Prime Factorization Image](../assets/primefactorizationque.png)
+![Prime Factorization Image](../assets/primefactorization.png)
 
 #### [PC:L-28 => Que-29 & Sol-30]
 
@@ -187,7 +221,7 @@ int a = 2 2 2 2 2 3 3 5
 
 #### 9th - Pythagorean Triplets
 
-![Inverse Image](../assets/pythagoreantripletsque.png)
+![Pythagorean Triplets Image](../assets/pythagoreantripletsque.png)
 
 #### [PC:L-30 => Que-31 & Sol-32]
 
@@ -251,10 +285,10 @@ then compare the square of values according to max value.
 
 #### 10th - Benjamin Bulbs
 
-![Inverse Image](../assets/benjaminbulbsque.png)
-![Inverse Image](../assets/benjaminbulbs.png)
-![Inverse Image](../assets/benjaminbulbs1.png)
-![Inverse Image](../assets/benjaminbulbs2.png)
+![Benjamin Bulbs Image](../assets/benjaminbulbsque.png)
+![Benjamin Bulbs Image](../assets/benjaminbulbs.png)
+![Benjamin Bulbs Image](../assets/benjaminbulbs1.png)
+![Benjamin Bulbs Image](../assets/benjaminbulbs2.png)
 
 #### [PC:L-32 => Que-33 & Sol-34]
 
