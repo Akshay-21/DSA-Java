@@ -42,8 +42,8 @@ flag = 2 // => number(7) is prime.
 
 #### 1.2 - Print all Prime Numbers till N
 
-![Is Number Prime Image](../assets/printprimenumberstillNque.png)
-![Is Number Prime Image](../assets/printprimenumberstillNque1.png)
+![Print all Prime Numbers till N Image](../assets/printprimenumberstillNque.png)
+![Print all Prime Numbers till N Image](../assets/printprimenumberstillNque1.png)
 
 ```
 # E.g.
