@@ -2,8 +2,8 @@
 
 #### 1st - Pattern-1
 
-![Pattern-1 Image](../assets/pattern/patternque1.png)
-![Pattern-1 Image](../assets/pattern/patternque2.png)
+![Pattern-1 Image](../assets/pattern/patternque1.1.png)
+![Pattern-1 Image](../assets/pattern/patternque1.2.png)
 
 ```
 Input Format
@@ -17,4 +17,20 @@ Output Format
 *   *   *   *   *
 ```
 
+#### 2nd - Pattern-2
+
+![Pattern-2 Image](../assets/pattern/patternque2.1.png)
+![Pattern-2 Image](../assets/pattern/patternque2.2.png)
+
+```
+Input Format
+int n = 5;
+
+Output Format
+*   *   *   *   *
+*   *   *   *
+*   *   *
+*   *
+*
+```
 
