@@ -34,3 +34,18 @@ Output Format
 *
 ```
 
+#### 3rd - Pattern-3
+
+![Pattern-3 Image](../assets/pattern/patternque3.1.png)
+
+```
+Input Format
+int n = 5;
+
+Output Format
+                *
+            *   *
+        *   *   *
+    *   *   *   *
+*   *   *   *   *
+```
