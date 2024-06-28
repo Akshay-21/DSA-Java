@@ -49,3 +49,20 @@ Output Format
     *   *   *   *
 *   *   *   *   *
 ```
+
+#### 4th - Pattern-4
+
+![Pattern-4 Image](../assets/pattern/patternque4.1.png)
+![Pattern-4 Image](../assets/pattern/patternque4.2.png)
+
+```
+Input Format
+int n = 5;
+
+Output Format
+*   *   *   *   *
+    *   *   *   *
+        *   *   *
+            *   *
+                *                
+```
