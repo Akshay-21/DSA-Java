@@ -66,3 +66,18 @@ Output Format
             *   *
                 *                
 ```
+
+#### 5th - Pattern-5
+![Pattern-5 Image](../assets/pattern/patternque5.1.png)
+
+```
+Input Format
+int n = 5;
+
+Output Format
+        *
+    *   *   *                     
+*   *   *   *   *
+    *   *   *
+        *
+```
