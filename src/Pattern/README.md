@@ -81,3 +81,20 @@ Output Format
     *   *   *
         *
 ```
+
+#### 6th - Pattern-6
+![Pattern-6 Image](../assets/pattern/patternque6.1.png)
+
+```
+Input Format
+int n = 5;
+
+Output Format
+
+*   *   *       *   *   *
+*   *               *   *
+*                       *
+*   *               *   *
+*   *   *       *   *   *   
+
+```
