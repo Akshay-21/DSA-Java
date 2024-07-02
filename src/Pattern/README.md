@@ -158,3 +158,20 @@ i   1   2   3   4   5
 (i + j == n + 1)
 
 ```
+
+#### 9th - Pattern-9
+![Pattern-9 Image](../assets/pattern/patternque9.1.png)
+
+```
+Input Format
+int n = 5;
+
+Output Format
+
+*               *
+    *       *
+        *
+    *       *
+*               *
+
+```
