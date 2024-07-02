@@ -125,4 +125,36 @@ Output Format
 51  52  53  54  55
 *   *   *   *   *
 
+
+(i == j)
+
+```
+
+#### 8th - Pattern-8
+![Pattern-8 Image](../assets/pattern/patternque8.1.png)
+![Pattern-8 Image](../assets/pattern/patternque8.2.png)
+
+```
+Input Format
+int n = 5;
+
+Output Format
+  
+                *
+            *                   
+        *
+    *
+*
+    
+    j
+i   1   2   3   4   5   
+1   *   *   *   *   *
+2   *   *   *   *   *
+3   *   *   *   *   *
+4   *   *   *   *   *
+5   *   *   *   *   *
+
+
+(i + j == n + 1)
+
 ```
