@@ -174,4 +174,43 @@ Output Format
     *       *
 *               *
 
+
+((i == j) && (i + j == n + 1))
+```
+
+#### 10th - Pattern-10
+![Pattern-10 Image](../assets/pattern/patternque10.1.png)
+![Pattern-10 Image](../assets/pattern/patternque10.2.png)
+
+```
+Input Format
+int n = 5;
+
+Output Format
+
+        *
+    *       *
+*               *           
+    *       *
+        *
+        
+Note:-
+Manage Outer Space and Inner Space
+is      os
+2       -1
+1        1
+0        3
+1        1   
+2       -1
+
+print outer space then star(without iteration) after that inner space again star(with condition).
+
+if (i <= n / 2) {
+    sp1--;
+    sp2 += 2;
+  } else {
+    sp1++;
+    sp2 -= 2;
+  }
+        
 ```
