@@ -214,3 +214,20 @@ if (i <= n / 2) {
   }
         
 ```
+
+
+#### 11th - Pattern-11
+![Pattern-11 Image](../assets/pattern/patternque11.1.png)
+
+```
+Input Format
+int n = 5;
+
+Output Format
+
+1
+2   3
+4   5   6
+7   8   9   10        
+11  12  13  14  15        
+```
