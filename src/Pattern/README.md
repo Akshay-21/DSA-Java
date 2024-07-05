@@ -231,3 +231,20 @@ Output Format
 7   8   9   10        
 11  12  13  14  15        
 ```
+
+#### 12th - Pattern-12
+![Pattern-12 Image](../assets/pattern/patternque12.1.png)
+![Pattern-12 Image](../assets/pattern/patternque12.2.png)
+
+```
+Input Format
+int n = 5;
+
+Output Format
+
+0
+1   1
+2   3   5
+8   11   21   24  
+55  89   144  233   377              
+```
