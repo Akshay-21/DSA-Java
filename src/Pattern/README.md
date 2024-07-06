@@ -248,3 +248,23 @@ Output Format
 8   11   21   24  
 55  89   144  233   377              
 ```
+
+#### 13th - Pattern-13
+![Pattern-13 Image](../assets/pattern/patternque13.1.png)
+![Pattern-13 Image](../assets/pattern/patternque13.2.png)
+![Pattern-13 Image](../assets/pattern/patternque13.3.png)
+![Pattern-13 Image](../assets/pattern/patternque13.4.png)
+
+```
+Input Format
+int n = 6;
+
+Output Format
+
+1
+1   1
+1   2   1
+1   3   3   1
+1   4   6   4   1
+1   5   10  10  5   1           
+```
