@@ -268,3 +268,25 @@ Output Format
 1   4   6   4   1
 1   5   10  10  5   1           
 ```
+
+#### 14th - Pattern-14
+![Pattern-14 Image](../assets/pattern/patternque14.1.png)
+
+```
+Input Format
+int n = x;
+n = 5;
+
+Output Format
+
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 = 15
+5 * 4 = 20
+5 * 5 = 25
+5 * 6 = 30
+5 * 7 = 35
+5 * 8 = 40
+5 * 9 = 45
+5 * 10 = 50        
+```
