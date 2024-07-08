@@ -290,3 +290,26 @@ Output Format
 5 * 9 = 45
 5 * 10 = 50        
 ```
+
+#### 15th - Pattern-15
+![Pattern-15 Image](../assets/pattern/patternque15.1.png)
+![Pattern-15 Image](../assets/pattern/patternque15.2.png)
+![Pattern-15 Image](../assets/pattern/patternque15.3.png)
+![Pattern-15 Image](../assets/pattern/patternque15.4.png)
+![Pattern-15 Image](../assets/pattern/patternque15.5.png)
+![Pattern-15 Image](../assets/pattern/patternque15.6.png)
+
+```
+Input Format
+int n = x;
+n = 5;
+
+Output Format
+        
+        1
+    2   3   2
+3   4   5   4   3
+    2   3   2
+        1            
+              
+```
