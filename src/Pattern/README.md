@@ -313,3 +313,20 @@ Output Format
         1            
               
 ```
+
+#### 16th - Pattern-16
+![Pattern-16 Image](../assets/pattern/patternque16.1.png)
+![Pattern-16 Image](../assets/pattern/patternque16.2.png)
+```
+Input Format
+int n = x;
+n = 5;
+
+Output Format
+        
+1                       1
+1   2               2   1
+1   2   3       3   2   1
+1   2   3   4   3   2   1        
+              
+```

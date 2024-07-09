@@ -1,10 +1,11 @@
 package Pattern;
 
 public class Pattern_15 {
+
     public static void main(String[] args) {
 
         int n = 5;
-        int sp = n/2;
+        int sp = n / 2;
         int st = 1;
         int val = 1;
 
@@ -17,11 +18,11 @@ public class Pattern_15 {
             int cVal = val;
 
             for (int k = 1; k <= st; k++) {
-                System.out.print(cVal+"\t");
+                System.out.print(cVal + "\t");
 
-                if(k<= st / 2){
+                if (k <= st / 2) {
                     cVal++;
-                }else {
+                } else {
                     cVal--;
                 }
             }
@@ -30,11 +31,11 @@ public class Pattern_15 {
 
             if (i <= n / 2) {
                 sp--;
-                st+=2;
+                st += 2;
                 val++;
-            }else{
+            } else {
                 sp++;
-                st-=2;
+                st -= 2;
                 val--;
             }
         }
