@@ -319,14 +319,30 @@ Output Format
 ![Pattern-16 Image](../assets/pattern/patternque16.2.png)
 ```
 Input Format
-int n = x;
-n = 5;
-
+int n = 4;
 Output Format
         
 1                       1
 1   2               2   1
 1   2   3       3   2   1
 1   2   3   4   3   2   1        
+              
+```
+
+#### 17th - Pattern-17
+![Pattern-17 Image](../assets/pattern/patternque17.1.png)
+![Pattern-17 Image](../assets/pattern/patternque17.2.png)
+![Pattern-17 Image](../assets/pattern/patternque17.3.png)
+```
+Input Format
+int n = 5;
+
+Output Format
+
+        *
+        *   *      
+*   *   *   *   *
+        *   *
+        *           
               
 ```
