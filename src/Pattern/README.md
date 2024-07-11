@@ -346,3 +346,23 @@ Output Format
         *           
               
 ```
+
+
+#### 18th - Pattern-18
+![Pattern-18 Image](../assets/pattern/patternque18.1.png)
+```
+Input Format
+int n = 7;
+
+Output Format
+
+*   *   *   *   *   *   *
+    *               *
+        *       *
+            *
+        *   *   *
+    *   *   *   *   *
+*   *   *   *   *   *   *            
+
+                     
+```
