@@ -366,3 +366,19 @@ Output Format
 
                      
 ```
+
+#### 19th - Pattern-19
+![Pattern-19 Image](../assets/pattern/patternque19.1.png)
+![Pattern-19 Image](../assets/pattern/patternque19.2.png)
+```
+Input Format
+int n = 5 || 7;
+
+Output Format
+
+*   *   *       *
+        *       *
+*   *   *   *   *          
+*       *
+*       *   *   *                     
+```
