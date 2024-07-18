@@ -382,3 +382,19 @@ Output Format
 *       *
 *       *   *   *                     
 ```
+
+#### 20th - Pattern-20
+![Pattern-20 Image](../assets/pattern/patternque20.1.png)
+```
+Input Format
+int n = 5 || 7;
+
+Output Format
+
+*               *                 
+*               *
+*       *       *
+*   *       *   *
+*               *         
+                    
+```
