@@ -336,3 +336,20 @@ int n
 
 Print all perfect square of all numbers till n, which will be less than n.
 ```
+
+#### Introduction to Functions
+
+[//]: # (![Introduction to Functions]&#40;../assets/introductiontofunctions.png&#41;)
+
+#### [PC:L-74]
+
+```  
+# E.g.
+Input Format    
+int n
+int r
+'n' where n is any integer value.
+'r' where r is any integer value.
+
+find the npr.
+```
