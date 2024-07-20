@@ -353,3 +353,23 @@ int r
 
 find the npr.
 ```
+
+#### Digits Frequency
+![Digits Frequency Image](../assets/digitfrequencyque1.png)
+#### [PC:L-76 => Que-76 & Sol-77]
+```  
+# E.g.
+Input Format    
+int n
+int d 
+'n' where n is any integer value.
+'d' where d is digit.  
+
+
+# E.g.
+n = 994543234
+d = 4
+
+o/p:
+result = 3
+```
