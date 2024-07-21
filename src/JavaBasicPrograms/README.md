@@ -358,7 +358,6 @@ find the npr.
 ![Digits Frequency Image](../assets/digitfrequencyque1.png)
 #### [PC:L-76 => Que-76 & Sol-77]
 ```  
-# E.g.
 Input Format    
 int n
 int d 
@@ -372,4 +371,25 @@ d = 4
 
 o/p:
 result = 3
+```
+
+
+### Introduction to Number System
+#### Decimal to any Base [Conv_1_DecimalToAnyBase]
+![Decimal to any Base Image](../assets/decimaltoanybase1.png)
+#### [PC:L-79 => Que-79 & Sol-80]
+```  
+Input Format    
+int n
+int b 
+'n' where n is any integer value.
+'b' where b is base to convert the number.  
+
+
+# E.g.
+n = 634
+b = 2 || 8
+
+o/p:
+result = 1001111010 || 1172
 ```
