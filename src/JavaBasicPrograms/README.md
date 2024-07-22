@@ -393,3 +393,21 @@ b = 2 || 8
 o/p:
 result = 1001111010 || 1172
 ```
+
+#### Any base to decimal [Conv_2_AnyBaseToDecimal]
+![Any base to decimal Image](../assets/anybasetodecimal1.png)
+#### [PC:L-81 => Que-81 & Sol-82]
+```
+Input Format    
+int n
+int b 
+'n' where n is any integer value.
+'b' where b is base to convert the number.  
+
+# E.g.
+n = 1172
+b = 10
+
+o/p:
+result = 634
+```
