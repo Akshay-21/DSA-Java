@@ -411,3 +411,24 @@ b = 10
 o/p:
 result = 634
 ```
+
+#### Any base to Any base [Conv_3_AnyBaseToAnyBase]
+![Any base to Any base Image](../assets/anybasetoanybase1.png)
+#### [PC:L-83 => Que-83 & Sol-84]
+```
+Input Format    
+int n
+int base 1
+int base 2
+'n' where n is any integer value.
+'base1' where base1 is base to convert the number.  
+'base2' where base2 is base to convert the number.  
+
+# E.g.
+n = 1172
+base1 = 8
+base2 = 2
+
+o/p:
+result = 1111010
+```
