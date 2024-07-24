@@ -69,7 +69,6 @@ Sample Output
 23
 ```
 
-
 #### 1st - Print All Fibonacci Number Till N
 
 ```
@@ -355,8 +354,11 @@ find the npr.
 ```
 
 #### Digits Frequency
+
 ![Digits Frequency Image](../assets/digitfrequencyque1.png)
+
 #### [PC:L-76 => Que-76 & Sol-77]
+
 ```  
 Input Format    
 int n
@@ -373,11 +375,14 @@ o/p:
 result = 3
 ```
 
-
 ### Introduction to Number System
+
 #### Decimal to any Base [Conv_1_DecimalToAnyBase]
+
 ![Decimal to any Base Image](../assets/decimaltoanybase1.png)
+
 #### [PC:L-79 => Que-79 & Sol-80]
+
 ```  
 Input Format    
 int n
@@ -395,8 +400,11 @@ result = 1001111010 || 1172
 ```
 
 #### Any base to decimal [Conv_2_AnyBaseToDecimal]
+
 ![Any base to decimal Image](../assets/anybasetodecimal1.png)
+
 #### [PC:L-81 => Que-81 & Sol-82]
+
 ```
 Input Format    
 int n
@@ -413,8 +421,11 @@ result = 634
 ```
 
 #### Any base to Any base [Conv_3_AnyBaseToAnyBase]
+
 ![Any base to Any base Image](../assets/anybasetoanybase1.png)
+
 #### [PC:L-83 => Que-83 & Sol-84]
+
 ```
 Input Format    
 int n
@@ -431,4 +442,28 @@ base2 = 2
 
 o/p:
 result = 1111010
+```
+
+#### Any base addition [Conv_4_AnyBaseAddition]
+
+![Any base Addition Image](../assets/anybaseaddition1.png)
+
+#### [PC:L-85 => Que-85 & Sol-86]
+
+```
+Input Format    
+int n1
+int n2
+int base 1
+'n1' where n1 is any integer value.
+'n2' where n2 is any integer value.
+'base1' where base1 is base to convert the number.    
+
+# E.g.
+n1 = 346
+n1 = 777
+base1 = 8
+
+o/p:
+result = 1345
 ```
