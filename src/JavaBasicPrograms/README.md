@@ -457,13 +457,41 @@ int n2
 int base 1
 'n1' where n1 is any integer value.
 'n2' where n2 is any integer value.
-'base1' where base1 is base to convert the number.    
+'base1' where base1 is an integer value to represent the numbers base.  
 
 # E.g.
 n1 = 346
-n1 = 777
+n2 = 777
 base1 = 8
+
+result = n1 + n2
 
 o/p:
 result = 1345
+```
+
+#### Any base subtraction [Conv_5_AnyBaseSubtraction]
+
+![Any base Subtraction Image](../assets/anybasesubtraction1.png)
+
+#### [PC:L-87 => Que-87 & Sol-88]
+
+```
+Input Format    
+int n1
+int n2
+int base 1
+'n1' where n1 is any integer value.
+'n2' where n2 is any integer value.
+'base1' where base1 is an integer value to represent the numbers base.    
+
+# E.g.
+n1 = 256
+n2 = 1212
+base1 = 8
+
+result = n2 - n1
+
+o/p:
+result = 734
 ```
