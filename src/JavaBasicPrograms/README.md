@@ -485,6 +485,7 @@ int base 1
 'n2' where n2 is any integer value.
 'base1' where base1 is an integer value to represent the numbers base.    
 
+
 # E.g.
 n1 = 256
 n2 = 1212
@@ -494,4 +495,30 @@ result = n2 - n1
 
 o/p:
 result = 734
+```
+
+#### Any base multiplication [Conv_6_AnyBaseMultiplication]
+
+![Any base multiplication Image](../assets/anybasemultiplication1.png)
+
+#### [PC:L-89 => Que-89 & Sol-90]
+
+```
+Input Format    
+int n1
+int n2
+int base 1
+'n1' where n1 is any integer value.
+'n2' where n2 is any integer value.
+'base1' where base1 is an integer value to represent the numbers base.    
+
+# E.g.
+n1 = 234
+n2 = 76
+base1 = 8
+
+result = n2 * n1
+
+o/p:
+result = 22710
 ```
