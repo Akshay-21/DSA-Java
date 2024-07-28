@@ -1,6 +1,6 @@
 package Array;
 
-public class FindElementInAArray {
+public class FindElementInAnArray {
 
     public static void main(String[] args) {
 

@@ -22,9 +22,9 @@ o/p:
 result = 36
 ```
 
-#### Find element in a array
-![Find element in a array Image](../assets/array/findelementinaarrayque1.png)
-![Find element in a array Image](../assets/array/findelementinaarrayque2.png)
+#### Find element in an array
+![Find element in an array Image](../assets/array/findelementinanarrayque1.png)
+![Find element in an array Image](../assets/array/findelementinanarrayque2.png)
 
 #### [PC:L-93 => Que-93 & Sol-94]
 
