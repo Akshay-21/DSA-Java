@@ -21,3 +21,27 @@ difference = 36
 o/p:
 result = 36
 ```
+
+#### Find element in a array
+![Find element in a array Image](../assets/array/findelementinaarrayque1.png)
+![Find element in a array Image](../assets/array/findelementinaarrayque2.png)
+
+#### [PC:L-93 => Que-93 & Sol-94]
+
+```
+Input Format    
+int n = 6
+'n' where n is any integer value.
+which represents array length.
+
+int[] arr = new int[]{15, 30, 40, 4, 11, 9, 40};
+'arr' where arr is int array.
+
+# E.g.
+
+int num = 40;
+arr[i] 
+
+o/p:
+result = 2
+```
