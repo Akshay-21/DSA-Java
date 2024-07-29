@@ -13,7 +13,7 @@ public class FindElementInAnArray {
     }
 
     public static int findElementFromArray(int num, int[] arr) {
-        int index = 0;
+        int index = -1;
         for (int i = 0; i < arr.length; i++) {
             if (num == arr[i]) {
                 index = i;
