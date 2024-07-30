@@ -49,7 +49,7 @@ result = 2
 #### Bar Chart
 ![Bar Chart Image](../assets/array/barchartque1.png)
 
-#### [PC:L-98 => Que-98 & Sol-99]
+#### [PC:L-97 => Que-97 & Sol-98]
 
 ```
 Input Format    
@@ -73,4 +73,31 @@ o/p:
 *           *   *
 *           *   *
 *   *       *   *
+```
+
+#### Sum of two arrays
+![Sum of two arrays Image](../assets/array/sumoftwoarraysque1.png)
+![Sum of two arrays Image](../assets/array/sumoftwoarraysque2.png)
+
+#### [PC:L-99 => Que-99 & Sol-100]
+
+```
+Input Format    
+int n1 = 5
+int n2 = 6
+'n1 & n2' where n1 and n2 is any integer value.
+which represents array length.
+
+int[] arr1 = new int[]{3, 1, 0, 7, 5};
+int[] arr2 = new int[]{1, 1, 1, 1, 1, 1};
+'arr1 & arr2' where arr is int array.
+
+# E.g.
+
+int[] result =  arr1 + arr2
+
+o/p:    
+
+result = [1, 4, 2, 1, 8, 6] 
+
 ```
