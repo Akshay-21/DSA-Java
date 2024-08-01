@@ -99,5 +99,29 @@ int[] result =  arr1 + arr2
 o/p:    
 
 result = [1, 4, 2, 1, 8, 6] 
+```
 
+#### Difference of two arrays
+![Difference of two arrays Image](../assets/array/differenceoftwoarraysque1.png)
+
+[//]: # (![Difference of two arrays Image]&#40;../assets/array/differenceoftwoarraysque2.png&#41;)
+
+#### [PC:L-101 => Que-101 & Sol-102]
+
+```
+Input Format    
+int n1 = 5
+int n2 = 6
+'n1 & n2' where n1 and n2 is any integer value.
+which represents array length.
+
+int[] arr1 = new int[]{2, 3, 4, 6, 9};
+int[] arr2 = new int[]{1, 1, 1, 1, 1, 1};
+'arr1 & arr2' where arr is int array.
+
+# E.g.
+int[] result =  arr2 - arr1
+
+o/p:    
+result = [8, 7, 6, 4, 2] 
 ```

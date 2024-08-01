@@ -1,2 +1,2 @@
 # DSA-Java
-Data Structures And Algorithms Made Easy In JAVA
+Data Structures And Algorithms
