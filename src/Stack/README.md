@@ -35,6 +35,11 @@ true or false
 
 Sample Input
 (a+b)+((c+d))
+
 Sample Output
 true   
 ```
+
+#### Duplicate Brackets Stack Using Linked List
+    Linked List -> Node and Data
+
