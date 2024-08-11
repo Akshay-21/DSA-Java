@@ -1,6 +1,6 @@
 # LeetCode
 
-### 1. Two Sum
+### 1.0 Two Sum
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -28,3 +28,6 @@ You can return the answer in any order.
 
     Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
+### 1.1 Two Sum with the complexity of O(n).
+    1.1.0 - Two Pass HashMap
+    1.1.1 - One Pass HashMap

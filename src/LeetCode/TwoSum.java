@@ -2,6 +2,10 @@ package LeetCode;
 
 import org.jetbrains.annotations.NotNull;
 
+/**
+ * Brute Force Solution
+ * The program complexity is O(n2).
+ */
 
 public class TwoSum {
     public static void main(String[] args) {
@@ -29,7 +33,3 @@ public class TwoSum {
         return indexValue;
     }
 }
-
-/**
- *  The program complexity is O(n2).
- * */
