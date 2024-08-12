@@ -31,3 +31,6 @@ You can return the answer in any order.
 ### 1.1 Two Sum with the complexity of O(n).
     1.1.0 - Two Pass HashMap
     1.1.1 - One Pass HashMap
+
+### 1.2 Two Sum with multiple array indexes, Time and space complexity is O(n).
+
