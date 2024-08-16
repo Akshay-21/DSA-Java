@@ -41,6 +41,7 @@ true
 ```
 
 #### Duplicate Brackets Stack Using Linked List
+
     Linked List -> Node and Data
 
 #### Balanced Brackets
@@ -70,3 +71,44 @@ Sample Input
 Sample Output
 true   
 ```
+
+#### NextGreaterElementOnTheRight
+
+![NextGreaterElementOnTheRight Image1](../assets/stack/nextgreaterelementontherightque1.png)
+
+#### [PC:L-108 => Que-108 & Sol-109]
+
+```
+e.g.
+int[] arr = new int[]{2,5,9,3,1,12,6,8,7}; 
+
+Next greater element for 2 is 5.
+Next greater element for 5 is 9.
+Next greater element for 2 is 5.
+Next greater element for 9 is 12.
+Next greater element for 3 is 12.
+Next greater element for 1 is 12.
+Next greater element for 12 is -1.
+Next greater element for 6 is 8.
+Next greater element for 8 is -1.
+Next greater element for 7 is -1.
+
+
+Input format
+int[] arr = new int[]{2,5,9,3,1,12,6,8,7};
+2 5 9 3 1 12 6 8 7 
+ 
+Output format
+int[] nge = new int[n];
+5 9 12 12 12 -1 8 -1 -1
+
+Sample Input
+int[] arr = new int[n];
+2 5 9 3 1 12 6 8 7 
+
+Sample Output
+int[] nge = new int[n];
+5 9 12 12 12 -1 8 -1 -1
+```
+
+
