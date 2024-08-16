@@ -7,7 +7,7 @@ public class NextGreaterElementOnTheRight {
         int n = 9;
 //		int a[] = new int[n];
 
-        int a[] = new int[] {2, 5, 9, 3, 1, 12, 6, 8, 7};
+        int[] a = new int[] {2, 5, 9, 3, 1, 12, 6, 8, 7};
 
         /*
          * for(int b = 0; b<a.length; b++) { System.out.print(a[b] +" "); }
@@ -60,7 +60,7 @@ public class NextGreaterElementOnTheRight {
 
 }
 
-class Stack12<T> {
+class Stack12<T extends Integer> {
 
     int size;
     Node12<T> top;
@@ -71,7 +71,7 @@ class Stack12<T> {
     }
 
     public void push(T data) {
-        Node12<T> node = new Node12<T>(data);
+        Node12<T> node = new Node12<>(data);
         node.nextLink = top;
         top = node;
         size++;
