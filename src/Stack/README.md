@@ -111,4 +111,10 @@ int[] nge = new int[n];
 5 9 12 12 12 -1 8 -1 -1
 ```
 
+#### Next Greater Element On The Right Alternative Solution
+
+```
+e.g.
+int[] arr = new int[]{2,5,9,3,1,12,6,8,7}; 
+```
 
